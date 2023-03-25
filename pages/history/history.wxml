@@ -1,0 +1,10 @@
+<!--pages/history/history.wxml-->
+<scroll-view scroll-y="true" class="container" enable-flex="true">
+  <view class="history-list">
+    <view class="title">翻译历史</view>
+    <view class="item" wx:for="{{history}}" wx:key="index" bindtap='onTapItem' data-query="{{item.src}}" data-langId="{{item.langIndex}}" data-dst="{{ item.dst }}">
+      <view class="query">{{item.src}}</view>
+      <view class="result">{{item.dst}}</view>
+    </view>
+  </view>
+</scroll-view>
