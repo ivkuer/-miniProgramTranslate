@@ -44,12 +44,23 @@
     background-color: #fff;
   }
   
-  .input-area .text-title {
+  .input-area  {
     font-size: 28rpx;
     color: #8995a1;
   }
   
   .input-area .text-result {
     padding: 20rpx 0;
+  }
+
+  .text-area {
+      height: 250rpx;
+      font-size: 40rpx;
+  }
+
+  .text-title {
+      font-size: 28rpx;
+    color: #8995a1;
+
   }
   

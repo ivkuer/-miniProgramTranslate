@@ -7,9 +7,9 @@
     "window": {
       "backgroundTextStyle": "light",
       "navigationBarBackgroundColor": "#1c1b21",
-      "navigationBarTitleText": "饥人谷翻译",
+      "navigationBarTitleText": "你好A翻译",
       "navigationBarTextStyle": "white",
-      "backgroundColor": "#000"
+      "backgroundColor": "#f5fafe"
     },
     "tabBar": {
       "borderStyle": "white",
